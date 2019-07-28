@@ -13,7 +13,7 @@ import org.apache.commons.fileupload.FileItem;
 import org.apache.commons.fileupload.disk.DiskFileItem;
 import org.apache.commons.fileupload.disk.DiskFileItemFactory;
 import org.apache.commons.fileupload.servlet.ServletFileUpload;
-import org.apache.jasper.compiler.JavacErrorDetail;
+
 
 public class UploadServlet extends HttpServlet {
 	private boolean isMulitpart; // 检查我们有一个文件上传请求
