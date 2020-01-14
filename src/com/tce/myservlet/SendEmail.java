@@ -92,16 +92,12 @@ public class SendEmail extends HttpServlet {
 			ts.close();
 
 		} catch (NoSuchProviderException e1) {
-			// TODO Auto-generated catch block
 			e1.printStackTrace();
 		} catch (GeneralSecurityException e2) {
-			// TODO Auto-generated catch block
 			e2.printStackTrace();
 		} catch (MessagingException e3) {
-			// TODO Auto-generated catch block
 			e3.printStackTrace();
 		} catch (Exception en) {
-			// TODO: handle exception
 			en.printStackTrace();
 		}
 

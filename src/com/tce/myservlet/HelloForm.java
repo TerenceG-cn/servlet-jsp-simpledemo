@@ -32,7 +32,6 @@ public class HelloForm extends HttpServlet {
 	}
 
 	public void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		// TODO Auto-generated method stub
 		//处理中文
 		request.setCharacterEncoding("UTF-8");
 		doGet(request, response);

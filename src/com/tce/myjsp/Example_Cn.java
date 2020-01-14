@@ -8,7 +8,6 @@ public class Example_Cn extends ListResourceBundle {
 
 	@Override
 	protected Object[][] getContents() {
-		// TODO Auto-generated method stub
 		return contents;
 	}
 }
